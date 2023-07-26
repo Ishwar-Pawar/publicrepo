@@ -18,3 +18,6 @@ result=`expr $a - $b`
 
 echo "$a - $b = $result"
 
+## multi operation ##
+result2=`expr $a / $b`
+echo "$result2" 
